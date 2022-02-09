@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+  }
+
+  #header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  #header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  #header h1 p {
+    float: left;
+    margin-top: 1px;
+    padding: 11px 11px;
+    color: white;
+    text-decoration: none;
+
+  }
+
+  #header ul {
+    float: right;
+  }
+
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .container:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  #header ul li {
+    border-radius: 15px;
+    display: inline-flex;
+  }
+
+  #header ul li a {
+    border-radius: 15px;
+    display: inline-flex;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+  #header ul li a:hover {
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+  }
+
+  #banner {
+    height: 680px;
+    background-image: url("img2/smk1.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 140%;
+  }
+
+  #atas{
+    margin-left: 90px;
+    display: flex;
+    padding: 10px;
+  }
+
+  #atas h3 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  #tengah{
+    margin-left: 90px;
+    padding: 20px;
+    margin-top: 80px;
+  }
+
+  #tengah h1 {
+    font-size: 50px;
+  }
+
+  #bawah p {
+    margin-left: 90px;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  #banner img{
+    margin: 10px;
+    width: 110px;
+    height: 110px;
+  }
+
+  #awal {
+    background-color: slategrey;
+  }
+  .kotak2 {
+    margin: 10px;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .box2 {
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .box2 ul{
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    width: 350px;
+    height: 50px;
+    margin-left: 22px;
+   
+  }
+
+  .box2 a {
+    box-shadow: 0px 0px 4px black;
+    background-color: cadetblue;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .box2 h1 {
+    width: 369px;
+    margin-block-end: 10px;
+    
+  }
+
+  .box2 h2 {
+    font-size: 31px;
+    margin-block-end: 20px;
+  }
+
+  .box2 h3 {
+    margin-block-end: 10px;
+    font-size: 31px;
+  }
+
+  .box2 p {
+    font-size: 18px;
+    margin-right: 80px;
+  }
+
+  #akhir{
+    display: flex;
+    color: black;
+    background-color: darkgrey;
+  }
+
+  #footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+  }
+
+  #footer p {
+    margin-top: 15px;
+    text-align: center;
+  }
